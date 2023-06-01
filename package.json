@@ -7,13 +7,11 @@
     "start": "ts-node-dev --respawn --transpile-only src/server.ts",
     "dev": "tsc --watch",
     "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
-    "lint:fix": "eslint --fix",
+    "lint:fix": "eslint . --fix",
     "prettier:check": "yarn prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "prettier:fix" : "prettier --write .",
     "lint-prettier": "yarn lint:check && yarn prettier:check",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "husky install",
-    "prepack": "pinst --disable",
-    "postpack": "pinst --enable"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Neasher",
   "license": "ISC",
