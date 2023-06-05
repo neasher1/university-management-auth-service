@@ -6,9 +6,9 @@
     "auditLog": "C:\\Level2\\university-management-auth-service\\logs\\winston\\errors\\.8820a40c3971bc0929efabef03c4331a59b9f800-audit.json",
     "files": [
         {
-            "date": 1685714949172,
-            "name": "C:\\Level2\\university-management-auth-service\\logs\\winston\\errors\\PH-error-02-06-2023-20.log",
-            "hash": "0656c045215bc063924963b9406d01db6ba21b7f6be4bd1c14e9b4e91212ea91"
+            "date": 1685981899715,
+            "name": "C:\\Level2\\university-management-auth-service\\logs\\winston\\errors\\PH-error-05-06-2023-22.log",
+            "hash": "c78411feffdd9ca3a02749c908da285113a582d8988352767499b7008adc9b96"
         }
     ],
     "hashType": "sha256"
