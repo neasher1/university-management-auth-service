@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/api/v1/users/', UserRoutes)
 
 app.get('/', (req: Request, res: Response) => {
-                res.send('Servers is running........')
+  res.send('Servers is running........')
 })
 
 // app.get('/', async (req: Request, res: Response) => {
