@@ -1,8 +1,8 @@
 import express, { Application, Request, Response } from 'express';
 const app: Application = express();
 import cors from 'cors';
-import { UserRoutes } from './app/modules/user/user.route';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import routes from './app/routes';
 
 app.use(cors());
 
@@ -11,7 +11,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //Application Routes
-app.use('/api/v1/users/', UserRoutes);
+// app.use('/api/v1/users/', UserRoutes);
+// app.use('/api/v1/academic-semester', AcademicSemesterRoutes);
+app.use('/api/v1/', routes);
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Servers is running.........');
