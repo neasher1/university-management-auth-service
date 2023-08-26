@@ -1,0 +1,2 @@
+Sat Aug 26 2023 23:17:56 [PH University] error: Attempted illegal state transition from [TRANSACTION_ABORTED] to [TRANSACTION_COMMITTED]
+Sat Aug 26 2023 23:17:56 [PH University] error: Attempted illegal state transition from [TRANSACTION_ABORTED] to [TRANSACTION_COMMITTED]
