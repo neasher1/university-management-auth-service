@@ -11,9 +11,6 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-//Application Routes
-// app.use('/api/v1/users/', UserRoutes);
-// app.use('/api/v1/academic-semester', AcademicSemesterRoutes);
 app.use('/api/v1/', routes);
 
 app.get('/', (req: Request, res: Response) => {

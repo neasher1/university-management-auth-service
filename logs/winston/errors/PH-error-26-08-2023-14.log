@@ -1,0 +1,2 @@
+Sat Aug 26 2023 14:2:38 [PH University] error: Cannot read properties of undefined (reading 'substring')
+Sat Aug 26 2023 14:2:49 [PH University] error: academicSemester.year.substring is not a function
